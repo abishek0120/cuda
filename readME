@@ -1,0 +1,16 @@
+cuda program with cpp
+
+well im new to this shit. even addtion seems like a shit
+
+if u have nvcc and cmake use it . other vise install it.
+it wont work in dev c++ or codeblocks or gcc
+
+enter in the file location of cmd:
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
+
+and :
+nvcc {filename}.cu -o {exename}.exe
+example: nvcc main.cu -o main.exe
+
+finaaly:
+main.exe
