@@ -13,4 +13,4 @@ nvcc {filename}.cu -o {exename}.exe
 example: nvcc main.cu -o main.exe
 
 finaaly:
-<h1><bold>main.exe</bold></h1>
+main.exe
